@@ -16,6 +16,10 @@ ___
   * [Linux](#linux)
   * [Not Linux](#not-linux)
 * [Arch-based distros](#arch-based-distros)
+  * [With SystemD](#with-systemd)
+    * [Desktop](#desktop)
+  * [SystemD-free](#systemd-free)
+* [Other projects](#other-projects)
 
 ## Arch-Based projects
 ### Linux
@@ -28,3 +32,23 @@ ___
 - [ArchWSL](https://git.io/archwsl) - ArchLinux as a WSL Instance.
 
 ## Arch-Based distros
+### With SystemD
+#### Desktop
+- [Manjaro](https://manjaro.org/) - A professionally made Linux based operating system that is a suitable replacement for Windows or MacOS.
+- [ArcoLinux](https://arcolinux.com/) - A full-featured distribution.
+- [ArchBang Linux](http://archbang.org/) - A lightweight distribution based on Arch Linux.
+- [Archman](http://archman.org/) - An Arch Linux-based distribution which features the Calamares system installer and a pre-configured desktop environment.
+- [Bluestar Linux](https://sourceforge.net/projects/bluestarlinux/) - A GNU/Linux distribution that is based on Arch Linux.
+- [EndeavourOS](https://endeavouros.com/) - A rolling release Linux distribution based on Arch Linux.
+- [ArchLabs Linux](https://archlabslinux.com/) - A distribution based on Arch Linux and featuring the Openbox window manager as the primary desktop interface.
+- [Chakra GNU/Linux](https://www.chakralinux.org/) - A user-friendly and powerful distribution and live CD originally forked from Arch Linux.
+- [Namib GNU/Linux](https://www.namiblinux.org/) - A desktop operating system based on (and compatible with) the Arch Linux distribution.
+
+### SystemD-free
+
+## Other projects
+- [Termux Arch](https://termuxarch.github.io/TermuxArch/) - Run Arch Linux ARM on your mobile phone with Termux.
+
+## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
