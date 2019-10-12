@@ -2,7 +2,7 @@
 <h1 align="center"> <a href="http://awesome.re"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="awesome"></a> Arch </h1>
 <p align="center"><i>An awesome list for an awesome project.</i></p>
 
-___
+---
 
 <p align="center">
   <img height="150" src="https://www.archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png">
@@ -12,18 +12,17 @@ ___
 
 ## Contents
 
-* [Arch-based projects](#arch-based-projects)
-  * [Linux](#linux)
-  * [Not Linux](#not-linux)
-* [Arch-based distros](#arch-based-distros)
-  * [With SystemD](#with-systemd)
-    * [Desktop](#desktop)
-    * [Specific purpose](#specific-purpose)
-  * [SystemD-free](#systemd-free)
- * [Arch Linux Installers](#arch-linux-installers)
-* [Other projects](#other-projects)
+- [Arch-based projects](#arch-based-projects)
+  - [Linux](#linux)
+  - [Not Linux](#not-linux)
+- [Arch-based distros](#arch-based-distros)
+  - [Desktop](#desktop)
+  - [Specific purpose](#specific-purpose)
+- [SystemD-free Arch-based distros](#systemd-free-arch-based-distros)
+- [Arch Linux Installers](#arch-linux-installers)
+- [Other projects](#other-projects)
 
-## Arch-Based projects
+## Arch-based projects
 
 ### Linux
 
@@ -36,13 +35,11 @@ ___
 - [Arch Hurd](https://archhurd.org/) - A derivative work of Arch Linux porting it to the GNU Hurd system with packages optimised for the i686 architecture.
 - [ArchWSL](https://git.io/archwsl) - ArchLinux as a WSL Instance.
 
-## Arch-Based distros
+## Arch-based distros
 
-### With SystemD
+### Desktop
 
-#### Desktop
-
-- [Manjaro](https://manjaro.org/) - A professionally made Linux based operating system that is a suitable replacement for Windows or MacOS.
+- [Manjaro](https://manjaro.org/) - A professionally made Linux based operating system that is a suitable replacement for Windows or macOS.
 - [ArcoLinux](https://arcolinux.com/) - A full-featured distribution.
 - [ArchBang Linux](http://archbang.org/) - A lightweight distribution based on Arch Linux.
 - [Archman](http://archman.org/) - An Arch Linux-based distribution which features the Calamares system installer and a pre-configured desktop environment.
@@ -59,21 +56,21 @@ ___
 - [PuppyRus-A](https://sourceforge.net/projects/puppyrusa/) - Lightweight, portable and flexible Linux based on Arch, Puppy, Porteus.
 - [TeLiSc OS](https://sourceforge.net/projects/telisc-os/) - A simple GNU/Linux distribution based on Arch Linux which provides you a stable Arch Linux with i3 window manager.
 
-#### Specific purpose
+### Specific purpose
 
-- [BlackArch Linux](https://blackarch.org/) _(Security/Forensics)_ - An Arch Linux-based distribution designed for penetration testers and security researchers.
-- [ArchStrike](https://archstrike.org/) _(Security)_ - A distribution for security professionals and researchers based on Arch Linux.
-- [SystemRescueCd](http://www.system-rescue-cd.org/) _(Data Rescue)_ - An Arch-based Linux system on a bootable CD-ROM or USB drive, designed for repairing a system and data after a crash.
-- [MorpheusArch Linux](http://morpheusarchlinux.com/) _(Data Rescue)_ - A distribution based on Arch Linux. 
-- [LinHES](http://www.linhes.org/) _(MythTV)_ - An attempt to make the installation of GNU/Linux and MythTV as trivial as possible.
-- [UBOS](https://ubos.net/) _(Server)_ - A Linux distribution designed to greatly reduce the amount of time required to set up and maintain common network services.
-- [TalkingArch](https://talkingarch.tk/) _(Assistive)_ - A re-spin of the Arch Linux live ISO image, modified to include speech and Braille output for blind and visually-impaired users.
-- [Archphile](https://archphile.org/) _(Raspberry Pi/ARM/Audio)_ - Yet another linux audio distribution for embedded boards.
-- [BBQLinux](http://bbqlinux.org/) _(Android Developers)_ - A user-friendly Linux distribution made for Android developers.
+- [BlackArch Linux](https://blackarch.org/) - _(Security/Forensics)_ - An Arch Linux-based distribution designed for penetration testers and security researchers.
+- [ArchStrike](https://archstrike.org/) - _(Security)_ - A distribution for security professionals and researchers based on Arch Linux.
+- [SystemRescueCd](http://www.system-rescue-cd.org/) - _(Data Rescue)_ - An Arch-based Linux system on a bootable CD-ROM or USB drive, designed for repairing a system and data after a crash.
+- [MorpheusArch Linux](http://morpheusarchlinux.com/) - _(Data Rescue)_ - A distribution based on Arch Linux. 
+- [LinHES](http://www.linhes.org/) - _(MythTV)_ - An attempt to make the installation of GNU/Linux and MythTV as trivial as possible.
+- [UBOS](https://ubos.net/) - _(Server)_ - A Linux distribution designed to greatly reduce the amount of time required to set up and maintain common network services.
+- [TalkingArch](https://talkingarch.tk/) - _(Assistive)_ - A re-spin of the Arch Linux live ISO image, modified to include speech and Braille output for blind and visually-impaired users.
+- [Archphile](https://archphile.org/) - _(Raspberry Pi/ARM/Audio)_ - Yet another linux audio distribution for embedded boards.
+- [BBQLinux](http://bbqlinux.org/) - _(Android Developers)_ - A user-friendly Linux distribution made for Android developers.
 It has everything on board to build AOSP or AOSP-based distributions like LineageOS or OmniROM.
-- [RaspArch](https://sourceforge.net/projects/rasparch/) _(Raspberry Pi/ARM)_ - A “remaster” of Arch Linux ARM.
+- [RaspArch](https://sourceforge.net/projects/rasparch/) - _(Raspberry Pi/ARM)_ - A “remaster” of Arch Linux ARM.
 
-### SystemD-free
+## SystemD-free Arch-based distros
 
 - [Obarun](https://web.obarun.org/) - An Arch Linux based distribution featuring the S6 init software in place of systemd.
 - [Artix Linux](https://artixlinux.org/) - A fork (or continuation as an autonomous project) of the Arch-OpenRC and Manjaro-OpenRC projects.
@@ -95,6 +92,6 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ## License
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 
 To the extent possible under law, Panda Foss has waived all copyright and related or neighboring rights to this work.
