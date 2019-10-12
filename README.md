@@ -18,6 +18,7 @@ ___
 * [Arch-based distros](#arch-based-distros)
   * [With SystemD](#with-systemd)
     * [Desktop](#desktop)
+    * [Specific purpose](#specific-purpose)
   * [SystemD-free](#systemd-free)
 * [Other projects](#other-projects)
 
@@ -43,6 +44,15 @@ ___
 - [ArchLabs Linux](https://archlabslinux.com/) - A distribution based on Arch Linux and featuring the Openbox window manager as the primary desktop interface.
 - [Chakra GNU/Linux](https://www.chakralinux.org/) - A user-friendly and powerful distribution and live CD originally forked from Arch Linux.
 - [Namib GNU/Linux](https://www.namiblinux.org/) - A desktop operating system based on (and compatible with) the Arch Linux distribution.
+
+#### Specific purpose
+- [BlackArch Linux](https://blackarch.org/) _(Security/Forensics)_ - An Arch Linux-based distribution designed for penetration testers and security researchers.
+- [ArchStrike](https://archstrike.org/) _(Security)_ - A distribution for security professionals and researchers based on Arch Linux.
+- [SystemRescueCd](http://www.system-rescue-cd.org/) _(Data Rescue)_ - An Arch-based Linux system on a bootable CD-ROM or USB drive, designed for repairing a system and data after a crash.
+- [MorpheusArch Linux](http://morpheusarchlinux.com/) _(Data Rescue)_ - A distribution based on Arch Linux. 
+- [LinHES](http://www.linhes.org/) _(MythTV)_ - An attempt to make the installation of GNU/Linux and MythTV as trivial as possible.
+- [UBOS](https://ubos.net/) _(Server)_ - A Linux distribution designed to greatly reduce the amount of time required to set up and maintain common network services.
+- [TalkingArch](https://talkingarch.tk/) _(Assistive)_ - A re-spin of the Arch Linux live ISO image, modified to include speech and Braille output for blind and visually-impaired users.
 
 ### SystemD-free
 
