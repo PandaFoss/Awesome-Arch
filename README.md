@@ -24,18 +24,24 @@ ___
 * [Other projects](#other-projects)
 
 ## Arch-Based projects
+
 ### Linux
+
 - [Arch Linux 32](https://www.archlinux32.org/) - The community maintained continuation of 32-bit support for Arch Linux.
 - [Arch Linux ARM](https://archlinuxarm.org/) - A distribution of Linux for ARM computers.
 
 ### Not Linux
+
 - [PacBSD](https://pacbsd.org/) - A lightweight and flexible BSD distribution that provides a base system for use of Pacman package manager.
 - [Arch Hurd](https://archhurd.org/) - A derivative work of Arch Linux porting it to the GNU Hurd system with packages optimised for the i686 architecture.
 - [ArchWSL](https://git.io/archwsl) - ArchLinux as a WSL Instance.
 
 ## Arch-Based distros
+
 ### With SystemD
+
 #### Desktop
+
 - [Manjaro](https://manjaro.org/) - A professionally made Linux based operating system that is a suitable replacement for Windows or MacOS.
 - [ArcoLinux](https://arcolinux.com/) - A full-featured distribution.
 - [ArchBang Linux](http://archbang.org/) - A lightweight distribution based on Arch Linux.
@@ -54,6 +60,7 @@ ___
 - [TeLiSc OS](https://sourceforge.net/projects/telisc-os/) - A simple GNU/Linux distribution based on Arch Linux which provides you a stable Arch Linux with i3 window manager.
 
 #### Specific purpose
+
 - [BlackArch Linux](https://blackarch.org/) _(Security/Forensics)_ - An Arch Linux-based distribution designed for penetration testers and security researchers.
 - [ArchStrike](https://archstrike.org/) _(Security)_ - A distribution for security professionals and researchers based on Arch Linux.
 - [SystemRescueCd](http://www.system-rescue-cd.org/) _(Data Rescue)_ - An Arch-based Linux system on a bootable CD-ROM or USB drive, designed for repairing a system and data after a crash.
@@ -67,6 +74,7 @@ It has everything on board to build AOSP or AOSP-based distributions like Lineag
 - [RaspArch](https://sourceforge.net/projects/rasparch/) _(Raspberry Pi/ARM)_ - A “remaster” of Arch Linux ARM.
 
 ### SystemD-free
+
 - [Obarun](https://web.obarun.org/) - An Arch Linux based distribution featuring the S6 init software in place of systemd.
 - [Artix Linux](https://artixlinux.org/) - A fork (or continuation as an autonomous project) of the Arch-OpenRC and Manjaro-OpenRC projects.
 - [Hyperbola GNU/Linux-libre](https://www.hyperbola.info/) - A community driven effort to provide a fully free (as in freedom) operating system that is stable, secure, simple, lightweight that tries to Keep It Simple Stupid (KISS) with Long Term Support (LTS).
@@ -74,11 +82,19 @@ It has everything on board to build AOSP or AOSP-based distributions like Lineag
 - [Alfheim Linux](https://alfheimlinux.wixsite.com/alfheimlinux) - Systemd free Arch based Linux.
 
 ## Arch Linux Installers
+
 - [Anarchy Linux](https://www.anarchylinux.org/) - A simple and intuitive Arch Linux installer.
 
 ## Other projects
+
 - [Termux Arch](https://termuxarch.github.io/TermuxArch/) - Run Arch Linux ARM on your mobile phone with Termux.
+
+## Contribute
+
+Contributions welcome! Read the [contribution guidelines](contributing.md) first.
 
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, Panda Foss has waived all copyright and related or neighboring rights to this work.
