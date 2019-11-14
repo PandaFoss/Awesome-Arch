@@ -1,14 +1,14 @@
-
-<h1 align="center"> <a href="http://awesome.re"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="awesome"></a> Arch </h1>
+<h1 align="center">Awesome Arch </h1>
 <p align="center"><i>An awesome list for an awesome project.</i></p>
+<h1 align="center"><a href="http://awesome.re"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="awesome"></a></h1>
 
 ---
 
 <p align="center">
-  <img height="150" src="https://www.archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png">
+  <img height="100" src="https://www.archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png">
 </p>
 
-> Arch Linux is an independently developed, x86-64 general purpose GNU/Linux distribution versatile enough to suit any role. Development focuses on simplicity, minimalism, and code elegance. Arch is installed as a minimal base system, configured by the user upon which their own ideal environment is assembled by installing only what is required or desired for their unique purposes. Official link: [Arch Linux Homepage](https://www.archlinux.org/)
+> [Arch Linux](https://www.archlinux.org/) is an independently developed, x86-64 general purpose GNU/Linux distribution versatile enough to suit any role. Development focuses on simplicity, minimalism, and code elegance. Arch is installed as a minimal base system, configured by the user upon which their own ideal environment is assembled by installing only what is required or desired for their unique purposes.
 
 ## Contents
 
@@ -61,7 +61,7 @@
 - [BlackArch Linux](https://blackarch.org/) - _(Security/Forensics)_ - An Arch Linux-based distribution designed for penetration testers and security researchers.
 - [ArchStrike](https://archstrike.org/) - _(Security)_ - A distribution for security professionals and researchers based on Arch Linux.
 - [SystemRescueCd](http://www.system-rescue-cd.org/) - _(Data Rescue)_ - An Arch-based Linux system on a bootable CD-ROM or USB drive, designed for repairing a system and data after a crash.
-- [MorpheusArch Linux](http://morpheusarchlinux.com/) - _(Data Rescue)_ - A distribution based on Arch Linux. 
+- [MorpheusArch Linux](https://sourceforge.net/projects/morpheusarch-lxqt/files/) - _(Data Rescue)_ - A distribution based on Arch Linux. 
 - [LinHES](http://www.linhes.org/) - _(MythTV)_ - An attempt to make the installation of GNU/Linux and MythTV as trivial as possible.
 - [UBOS](https://ubos.net/) - _(Server)_ - A Linux distribution designed to greatly reduce the amount of time required to set up and maintain common network services.
 - [TalkingArch](https://talkingarch.tk/) - _(Assistive)_ - A re-spin of the Arch Linux live ISO image, modified to include speech and Braille output for blind and visually-impaired users.
