@@ -1,6 +1,6 @@
-<h1 align="center">Awesome Arch </h1>
-<p align="center"><i>An awesome list for an awesome project.</i></p>
-<h1 align="center"><a href="http://awesome.re"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="awesome"></a></h1>
+## Awesome Arch [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
+
+> An awesome list for an awesome project.</i></p>
 
 <p align="center">
   <img height="100" src="https://www.archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png">
