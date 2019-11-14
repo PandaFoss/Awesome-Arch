@@ -1,4 +1,4 @@
-## Awesome Arch [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Arch [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
 
 > An awesome list for an awesome project.</i></p>
 
