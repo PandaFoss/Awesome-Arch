@@ -76,7 +76,7 @@ It has everything on board to build AOSP or AOSP-based distributions like Lineag
 
 ## Arch Linux Installers
 
-- [Anarchy Linux](https://www.anarchylinux.org/) - A simple and intuitive Arch Linux installer.
+- [Anarchy](https://anarchyinstaller.org/) - A simple and intuitive Arch Linux installer.
 
 ## Other projects
 
