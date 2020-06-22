@@ -51,6 +51,7 @@
 - [Netrunner Rolling](https://www.netrunner.com/netrunner-rolling-release/) - Manjaro/Arch Linux based distro.
 - [PuppyRus-A](https://sourceforge.net/projects/puppyrusa/) - Lightweight, portable and flexible Linux based on Arch, Puppy, Porteus.
 - [TeLiSc OS](https://sourceforge.net/projects/telisc-os/) - A simple GNU/Linux distribution based on Arch Linux which provides you a stable Arch Linux with i3 window manager.
+- [Qubes OS (Archlinux Template)](https://www.qubes-os.org/doc/building-archlinux-template/) - A security-focused desktop operating system that aims to provide security through isolation (Unofficial Archlinux Template).
 
 ### Specific purpose
 
