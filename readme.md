@@ -14,6 +14,7 @@
 - [Arch-based distros](#arch-based-distros)
   - [Desktop](#desktop)
   - [Specific purpose](#specific-purpose)
+- [Pacman-based Linux distros](#pacman-based-linux-distros)
 - [SystemD-free Arch-based distros](#systemd-free-arch-based-distros)
 - [Arch Linux Installers](#arch-linux-installers)
 - [AUR Helpers](#aur-helpers)
@@ -29,10 +30,14 @@
 
 ### Linux
 
+> Linux distributions strongly inspired by Arch Linux.
+
 - [Arch Linux 32](https://www.archlinux32.org/) - The community maintained continuation of 32-bit support for Arch Linux.
 - [Arch Linux ARM](https://archlinuxarm.org/) - A distribution of Linux for ARM computers.
 
 ### Not Linux
+
+> Non-Linux projects based on Arch Linux.
 
 - [PacBSD](https://pacbsd.org/) - A lightweight and flexible BSD distribution that provides a base system for use of `pacman` package manager.
 - [Arch Hurd](https://archhurd.org/) - A derivative work of Arch Linux porting it to the GNU Hurd system with packages optimised for the i686 architecture.
@@ -42,14 +47,16 @@
 
 ### Desktop
 
+> Linux distributions based on Arch Linux for general use.
+
 - [Manjaro](https://manjaro.org/) - A professionally made Linux based operating system that is a suitable replacement for Windows or macOS.
 - [ArcoLinux](https://arcolinux.com/) - A full-featured distribution.
 - [ArchBang Linux](http://archbang.org/) - A lightweight distribution based on Arch Linux.
+- [Archcraft OS](https://archcraft-os.github.io/) - A Minimalistic Linux Distribution, Focused On Aesthetics & Based On Arch Linux.
 - [Archman](http://archman.org/) - An Arch Linux-based distribution which features the Calamares system installer and a pre-configured desktop environment.
 - [Bluestar Linux](https://sourceforge.net/projects/bluestarlinux/) - A GNU/Linux distribution that is based on Arch Linux.
 - [EndeavourOS](https://endeavouros.com/) - A rolling release Linux distribution based on Arch Linux.
 - [ArchLabs Linux](https://archlabslinux.com/) - A distribution based on Arch Linux and featuring the Openbox window manager as the primary desktop interface.
-- [Chakra GNU/Linux](https://www.chakralinux.org/) - A user-friendly and powerful distribution and live CD originally forked from Arch Linux.
 - [Namib GNU/Linux](https://www.namiblinux.org/) - A desktop operating system based on (and compatible with) the Arch Linux distribution.
 - [ArchEX](http://archex.exton.net/) - A new (190612) Linux live DVD based on Arch Linux. Arch motto is KISS (Keep It Simple Stupid.
 - [Arch XFerience](https://www.xferience.org/) - A modern OS based on Arch Linux, built for day-to-day operations with tons of packages & features.
@@ -61,6 +68,8 @@
 - [Qubes OS (Archlinux Template)](https://www.qubes-os.org/doc/building-archlinux-template/) - A security-focused desktop operating system that aims to provide security through isolation (Unofficial Archlinux Template).
 
 ### Specific purpose
+
+> Linux distributions based on Arch Linux with a specific purpose.
 
 - [BlackArch Linux](https://blackarch.org/) - _(Security/Forensics)_ - An Arch Linux-based distribution designed for penetration testers and security researchers.
 - [ArchStrike](https://archstrike.org/) - _(Security)_ - A distribution for security professionals and researchers based on Arch Linux.
@@ -74,7 +83,16 @@
 It has everything on board to build AOSP or AOSP-based distributions like LineageOS or OmniROM.
 - [RaspArch](https://sourceforge.net/projects/rasparch/) - _(Raspberry Pi/ARM)_ - A “remaster” of Arch Linux ARM.
 
+## Pacman-based Linux distros
+
+ > Linux distributions that use `pacman` as a package manager.
+
+- [Chakra GNU/Linux](https://www.chakralinux.org/) - A user-friendly and powerful distribution and live CD originally forked from Arch Linux.
+- [KaOS](https://kaosx.us/) - KaOS is an independent distribution focused on Qt and KDE.
+
 ## SystemD-free Arch-based distros
+
+> Linux distributions based on Arch Linux that implement alternative inits to SystemD.
 
 - [Obarun](https://web.obarun.org/) - An Arch Linux based distribution featuring the S6 init software in place of systemd.
 - [Artix Linux](https://artixlinux.org/) - A fork (or continuation as an autonomous project) of the Arch-OpenRC and Manjaro-OpenRC projects.
@@ -84,17 +102,21 @@ It has everything on board to build AOSP or AOSP-based distributions like Lineag
 
 ## Arch Linux Installers
 
+> Installers created specifically to facilitate the installation of Linux Arch.
+
 - [Anarchy](https://anarchyinstaller.org/) - A simple and intuitive Arch Linux installer.
 
 ## AUR Helpers
 
 ### Search and download
+
 - [Auracle](https://github.com/falconindy/auracle) (C++) - A flexible command line client for Arch Linux's User Repository.
 - [pbget](https://xyne.archlinux.ca/projects/pbget/) (Python) - Retrieve PKGBUILDs and local source files from Git, ABS and the AUR for makepkg.
 - [repoctl](https://github.com/cassava/repoctl) (Go) - Make it easy to manage your local Arch Linux repository.
 - [yaah](https://projects.metalgamer.eu/yaah) (Bash) - A helper for the Archlinux User Repository (AUR).
 
 ### Search and build
+
 - [Aurutils](https://github.com/AladW/aurutils) (Bash) - Helper tools for the AUR.
 - [Bauerbill](https://xyne.archlinux.ca/projects/bauerbill/) (Python) - An extension of Powerpill with AUR and ABS support.
 - [PKGBUILDer](https://github.com/Kwpolska/pkgbuilder) (Python) - An AUR helper (and library) in Python 3.
@@ -102,6 +124,7 @@ It has everything on board to build AOSP or AOSP-based distributions like Lineag
 - [RUA](https://github.com/vn971/rua) (Rust) - Build tool for Arch Linux providing control, review and jailed build options.
 
 ### Pacman wrappers
+
 - [Aura](https://github.com/fosskers/aura) (Haskell) - A secure, multilingual package manager for Arch Linux and the AUR.
 - [Pacaur](https://github.com/E5ten/pacaur) (Bash) - An AUR helper that minimizes user interaction.
 - [Pakku](https://github.com/kitsunyan/pakku) (Nim) - `pacman` wrapper with AUR support.
@@ -138,12 +161,20 @@ It has everything on board to build AOSP or AOSP-based distributions like Lineag
 
 ## Other projects
 
+> Projects linked to or inspired by Arch Linux that do not belong to any previous category.
+
 - [Termux Arch](https://termuxarch.github.io/TermuxArch/) - Run Arch Linux ARM on your mobile phone with Termux.
 - [archlinux/base](https://hub.docker.com/r/archlinux/base/) - A docker image based on Arch Linux.
 
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+
+You can also contribute to the maintenance of the list by making a small donation (psst, buy me a coffee... ☕️ ):
+
+<noscript><a href="https://liberapay.com/PandaFoss/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+
+I need your support! ❤️
 
 ## License
 
