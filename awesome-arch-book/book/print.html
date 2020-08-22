@@ -1,0 +1,397 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Awesome Arch</title>
+        
+        <meta name="robots" content="noindex" />
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="arch-based-projects.html"><strong aria-hidden="true">1.</strong> Arch-based projects</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="linux.html"><strong aria-hidden="true">1.1.</strong> Linux</a></li><li class="chapter-item expanded "><a href="not-linux.html"><strong aria-hidden="true">1.2.</strong> Not Linux</a></li></ol></li><li class="chapter-item expanded "><a href="arch-based-distros.html"><strong aria-hidden="true">2.</strong> Arch-based distros</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="desktop.html"><strong aria-hidden="true">2.1.</strong> Desktop</a></li><li class="chapter-item expanded "><a href="specific-purpose.html"><strong aria-hidden="true">2.2.</strong> Specific purpose</a></li></ol></li><li class="chapter-item expanded "><a href="pacman-based-linux-distros.html"><strong aria-hidden="true">3.</strong> Pacman-based Linux distros</a></li><li class="chapter-item expanded "><a href="systemd-free-arch-based-distros.html"><strong aria-hidden="true">4.</strong> SystemD-free Arch-based distros</a></li><li class="chapter-item expanded "><a href="arch-linux-installers.html"><strong aria-hidden="true">5.</strong> Arch Linux Installers</a></li><li class="chapter-item expanded "><a href="aur-helpers.html"><strong aria-hidden="true">6.</strong> AUR Helpers</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="search-and-download.html"><strong aria-hidden="true">6.1.</strong> Search and download</a></li><li class="chapter-item expanded "><a href="search-and-build.html"><strong aria-hidden="true">6.2.</strong> Search and build</a></li><li class="chapter-item expanded "><a href="pacman-wrappers.html"><strong aria-hidden="true">6.3.</strong> Pacman wrappers</a></li><li class="chapter-item expanded "><a href="graphical.html"><strong aria-hidden="true">6.4.</strong> Graphical</a></li><li class="chapter-item expanded "><a href="mainteinance.html"><strong aria-hidden="true">6.5.</strong> Mainteinance</a></li><li class="chapter-item expanded "><a href="other.html"><strong aria-hidden="true">6.6.</strong> Other</a></li></ol></li><li class="chapter-item expanded "><a href="other-projects.html"><strong aria-hidden="true">7.</strong> Other projects</a></li><li class="chapter-item expanded affix "><a href="contribute.html">Contribute</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Awesome Arch</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#awesome-arch-a-hrefhttpsgithubcomsindresorhusawesomeimg-srchttpsawesomerebadge-flatsvg-altawesome-a" id="awesome-arch-a-hrefhttpsgithubcomsindresorhusawesomeimg-srchttpsawesomerebadge-flatsvg-altawesome-a">Awesome Arch <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="Awesome" /></a></a></h1>
+<blockquote>
+<p>An awesome list for an awesome project.</i></p></p>
+</blockquote>
+<p><a href="https://www.archlinux.org/"><img src="https://www.archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png" align="right" width="250"></a></p>
+<p><a href="https://www.archlinux.org/">Arch Linux</a> is an independently developed, x86-64 general purpose GNU/Linux distribution versatile enough to suit any role. Development focuses on simplicity, minimalism, and code elegance. Arch is installed as a minimal base system, configured by the user upon which their own ideal environment is assembled by installing only what is required or desired for their unique purposes.</p>
+<h1><a class="header" href="#arch-based-projects" id="arch-based-projects">Arch-based projects</a></h1>
+<p>Within the ecosystem of Arch-based projects, we can find some that use the Linux kernel, and others that do not, expanding even more the options available to Arch lovers.</p>
+<h1><a class="header" href="#linux" id="linux">Linux</a></h1>
+<blockquote>
+<p>Linux distributions strongly inspired by Arch Linux.</p>
+</blockquote>
+<ul>
+<li><a href="https://www.archlinux32.org/">Arch Linux 32</a> - The community maintained continuation of 32-bit support for Arch Linux.</li>
+<li><a href="https://archlinuxarm.org/">Arch Linux ARM</a> - A distribution of Linux for ARM computers.</li>
+</ul>
+<h1><a class="header" href="#not-linux" id="not-linux">Not Linux</a></h1>
+<blockquote>
+<p>Non-Linux projects based on Arch Linux.</p>
+</blockquote>
+<ul>
+<li><a href="https://pacbsd.org/">PacBSD</a> - A lightweight and flexible BSD distribution that provides a base system for use of <code>pacman</code> package manager.</li>
+<li><a href="https://archhurd.org/">Arch Hurd</a> - A derivative work of Arch Linux porting it to the GNU Hurd system with packages optimised for the i686 architecture.</li>
+<li><a href="https://git.io/archwsl">ArchWSL</a> - ArchLinux as a WSL Instance.</li>
+</ul>
+<h1><a class="header" href="#arch-based-distros" id="arch-based-distros">Arch-based distros</a></h1>
+<p>Simplicity is one of the great features of Arch Linux, which has led the community to use it for their own distributions. In this section we cover all of these through two categories: those general purpose distros (the ones we usually install on our home computers), and those others that were designed with a particular purpose in mind, be it focused on security, data rescue, servers among others.</p>
+<h1><a class="header" href="#desktop" id="desktop">Desktop</a></h1>
+<blockquote>
+<p>Linux distributions based on Arch Linux for general use.</p>
+</blockquote>
+<ul>
+<li><a href="https://manjaro.org/">Manjaro</a> - A professionally made Linux based operating system that is a suitable replacement for Windows or macOS.</li>
+<li><a href="https://arcolinux.com/">ArcoLinux</a> - A full-featured distribution.</li>
+<li><a href="http://archbang.org/">ArchBang Linux</a> - A lightweight distribution based on Arch Linux.</li>
+<li><a href="https://archcraft-os.github.io/">Archcraft OS</a> - A Minimalistic Linux Distribution, Focused On Aesthetics &amp; Based On Arch Linux.</li>
+<li><a href="http://archman.org/">Archman</a> - An Arch Linux-based distribution which features the Calamares system installer and a pre-configured desktop environment.</li>
+<li><a href="https://sourceforge.net/projects/bluestarlinux/">Bluestar Linux</a> - A GNU/Linux distribution that is based on Arch Linux.</li>
+<li><a href="https://endeavouros.com/">EndeavourOS</a> - A rolling release Linux distribution based on Arch Linux.</li>
+<li><a href="https://archlabslinux.com/">ArchLabs Linux</a> - A distribution based on Arch Linux and featuring the Openbox window manager as the primary desktop interface.</li>
+<li><a href="https://www.namiblinux.org/">Namib GNU/Linux</a> - A desktop operating system based on (and compatible with) the Arch Linux distribution.</li>
+<li><a href="http://archex.exton.net/">ArchEX</a> - A new (190612) Linux live DVD based on Arch Linux. Arch motto is KISS (Keep It Simple Stupid.</li>
+<li><a href="https://www.xferience.org/">Arch XFerience</a> - A modern OS based on Arch Linux, built for day-to-day operations with tons of packages &amp; features.</li>
+<li><a href="https://ctlos.github.io/">Ctlos Linux</a> - Arch Linux based distro.</li>
+<li><a href="https://www.magpieos.net/">MagpieOS</a> - Get a fresh experience of Arch.</li>
+<li><a href="https://www.netrunner.com/netrunner-rolling-release/">Netrunner Rolling</a> - Manjaro/Arch Linux based distro.</li>
+<li><a href="https://sourceforge.net/projects/puppyrusa/">PuppyRus-A</a> - Lightweight, portable and flexible Linux based on Arch, Puppy, Porteus.</li>
+<li><a href="https://sourceforge.net/projects/telisc-os/">TeLiSc OS</a> - A simple GNU/Linux distribution based on Arch Linux which provides you a stable Arch Linux with i3 window manager.</li>
+<li><a href="https://www.qubes-os.org/doc/building-archlinux-template/">Qubes OS (Archlinux Template)</a> - A security-focused desktop operating system that aims to provide security through isolation (Unofficial Archlinux Template).</li>
+</ul>
+<h1><a class="header" href="#specific-purpose" id="specific-purpose">Specific purpose</a></h1>
+<blockquote>
+<p>Linux distributions based on Arch Linux with a specific purpose.</p>
+</blockquote>
+<ul>
+<li><a href="https://blackarch.org/">BlackArch Linux</a> - <em>(Security/Forensics)</em> - An Arch Linux-based distribution designed for penetration testers and security researchers.</li>
+<li><a href="https://archstrike.org/">ArchStrike</a> - <em>(Security)</em> - A distribution for security professionals and researchers based on Arch Linux.</li>
+<li><a href="http://www.system-rescue-cd.org/">SystemRescueCd</a> - <em>(Data Rescue)</em> - An Arch-based Linux system on a bootable CD-ROM or USB drive, designed for repairing a system and data after a crash.</li>
+<li><a href="https://sourceforge.net/projects/morpheusarch-lxqt/files/">MorpheusArch Linux</a> - <em>(Data Rescue)</em> - A distribution based on Arch Linux. </li>
+<li><a href="http://www.linhes.org/">LinHES</a> - <em>(MythTV)</em> - An attempt to make the installation of GNU/Linux and MythTV as trivial as possible.</li>
+<li><a href="https://ubos.net/">UBOS</a> - <em>(Server)</em> - A Linux distribution designed to greatly reduce the amount of time required to set up and maintain common network services.</li>
+<li><a href="https://talkingarch.tk/">TalkingArch</a> - <em>(Assistive)</em> - A re-spin of the Arch Linux live ISO image, modified to include speech and Braille output for blind and visually-impaired users.</li>
+<li><a href="https://archphile.org/">Archphile</a> - <em>(Raspberry Pi/ARM/Audio)</em> - Yet another linux audio distribution for embedded boards.</li>
+<li><a href="http://bbqlinux.org/">BBQLinux</a> - <em>(Android Developers)</em> - A user-friendly Linux distribution made for Android developers.
+It has everything on board to build AOSP or AOSP-based distributions like LineageOS or OmniROM.</li>
+<li><a href="https://sourceforge.net/projects/rasparch/">RaspArch</a> - <em>(Raspberry Pi/ARM)</em> - A “remaster” of Arch Linux ARM.</li>
+</ul>
+<h1><a class="header" href="#pacman-based-linux-distros" id="pacman-based-linux-distros">Pacman-based Linux distros</a></h1>
+<blockquote>
+<p>Linux distributions that use <code>pacman</code> as a package manager.</p>
+</blockquote>
+<ul>
+<li><a href="https://www.chakralinux.org/">Chakra GNU/Linux</a> - A user-friendly and powerful distribution and live CD originally forked from Arch Linux.</li>
+<li><a href="https://kaosx.us/">KaOS</a> - KaOS is an independent distribution focused on Qt and KDE.</li>
+</ul>
+<h1><a class="header" href="#systemd-free-arch-based-distros" id="systemd-free-arch-based-distros">SystemD-free Arch-based distros</a></h1>
+<blockquote>
+<p>Linux distributions based on Arch Linux that implement alternative inits to SystemD.</p>
+</blockquote>
+<ul>
+<li><a href="https://web.obarun.org/">Obarun</a> - An Arch Linux based distribution featuring the S6 init software in place of systemd.</li>
+<li><a href="https://artixlinux.org/">Artix Linux</a> - A fork (or continuation as an autonomous project) of the Arch-OpenRC and Manjaro-OpenRC projects.</li>
+<li><a href="https://www.hyperbola.info/">Hyperbola GNU/Linux-libre</a> - A community driven effort to provide a fully free (as in freedom) operating system that is stable, secure, simple, lightweight that tries to Keep It Simple Stupid (KISS) with Long Term Support (LTS).</li>
+<li><a href="https://www.parabola.nu/">Parabola GNU/Linux-libre</a> - An unofficial &quot;libre&quot; variant of Arch Linux.</li>
+<li><a href="https://alfheimlinux.wixsite.com/alfheimlinux">Alfheim Linux</a> - Systemd free Arch based Linux.</li>
+</ul>
+<h1><a class="header" href="#arch-linux-installers" id="arch-linux-installers">Arch Linux Installers</a></h1>
+<blockquote>
+<p>Installers created specifically to facilitate the installation of Linux Arch.</p>
+</blockquote>
+<ul>
+<li><a href="https://anarchyinstaller.org/">Anarchy</a> - A simple and intuitive Arch Linux installer.</li>
+</ul>
+<h1><a class="header" href="#aur-helpers" id="aur-helpers">AUR Helpers</a></h1>
+<p>From Arch Wiki:</p>
+<blockquote>
+<p>AUR helpers automate usage of the <a href="https://aur.archlinux.org/">Arch User Repository</a>. In particular, they may automate the following tasks:</p>
+<ul>
+<li>searching for packages published on the AUR;</li>
+<li>resolving of dependencies between AUR packages;</li>
+<li>retrieve and build AUR packages;</li>
+<li>retrieve web content, such as user comments;</li>
+<li>submission of AUR packages.</li>
+</ul>
+</blockquote>
+<p>This section tries to cover all these helpers, divided according to their functionality.</p>
+<h1><a class="header" href="#search-and-download" id="search-and-download">Search and download</a></h1>
+<ul>
+<li><a href="https://github.com/falconindy/auracle">Auracle</a> (C++) - A flexible command line client for Arch Linux's User Repository.</li>
+<li><a href="https://xyne.archlinux.ca/projects/pbget/">pbget</a> (Python) - Retrieve PKGBUILDs and local source files from Git, ABS and the AUR for makepkg.</li>
+<li><a href="https://github.com/cassava/repoctl">repoctl</a> (Go) - Make it easy to manage your local Arch Linux repository.</li>
+<li><a href="https://projects.metalgamer.eu/yaah">yaah</a> (Bash) - A helper for the Archlinux User Repository (AUR).</li>
+</ul>
+<h1><a class="header" href="#search-and-build" id="search-and-build">Search and build</a></h1>
+<ul>
+<li><a href="https://github.com/AladW/aurutils">Aurutils</a> (Bash) - Helper tools for the AUR.</li>
+<li><a href="https://xyne.archlinux.ca/projects/bauerbill/">Bauerbill</a> (Python) - An extension of Powerpill with AUR and ABS support.</li>
+<li><a href="https://github.com/Kwpolska/pkgbuilder">PKGBUILDer</a> (Python) - An AUR helper (and library) in Python 3.</li>
+<li><a href="https://git.seppia.net/repofish.git">repofish</a> (Bash) - Simple shell script used to manage a local archlinux repository.</li>
+<li><a href="https://github.com/vn971/rua">RUA</a> (Rust) - Build tool for Arch Linux providing control, review and jailed build options.</li>
+</ul>
+<h1><a class="header" href="#pacman-wrappers" id="pacman-wrappers">Pacman wrappers</a></h1>
+<ul>
+<li><a href="https://github.com/fosskers/aura">Aura</a> (Haskell) - A secure, multilingual package manager for Arch Linux and the AUR.</li>
+<li><a href="https://github.com/E5ten/pacaur">Pacaur</a> (Bash) - An AUR helper that minimizes user interaction.</li>
+<li><a href="https://github.com/kitsunyan/pakku">Pakku</a> (Nim) - <code>pacman</code> wrapper with AUR support.</li>
+<li><a href="https://github.com/actionless/pikaur">pikaur</a> (Python) - AUR helper with minimal dependencies. Review PKGBUILDs all in once, next build them all without user interaction.</li>
+<li><a href="https://github.com/trizen/trizen">Trizen</a> (Perl) - Lightweight AUR Package Manager.</li>
+<li><a href="https://github.com/Jguer/yay">Yay</a> (Go) - Yet another Yogurt, an AUR Helper written in Go.</li>
+</ul>
+<h1><a class="header" href="#graphical" id="graphical">Graphical</a></h1>
+<ul>
+<li><a href="https://github.com/14mRh4X0r/arch-argon">Argon</a> (Python | GTK3) - lightweight GUI package manager for Arch Linux.</li>
+<li><a href="https://github.com/gavinlyonsrepo/cylon">Cylon</a> (Bash | TUI) - A CLI TUI menu driven bash shell script supporting updates, maintenance, backups and system checks for an Arch based Linux distro.</li>
+<li><a href="https://gitlab.manjaro.org/applications/pamac">Pamac</a> (Vala | GTK3) - Graphical Package Manager for Manjaro Linux with Alpm, AUR, Appstream, Flatpak and Snap support.</li>
+<li><a href="https://gitlab.com/mrvik/pakku-gui">Pakku GUI</a> (Python | GTK3) - Basic GTK interface to (install|remove|upgrade) packages with <code>pakku</code>.</li>
+<li><a href="https://bitbucket.org/kachelaqa/pkgbrowser">PkgBrowser</a> (Python | Qt5) - A utility for browsing <code>pacman</code> databases and the AUR.</li>
+<li><a href="https://tintaescura.com/projects/octopi">Octopi</a> (C++ | Qt5) - A graphical user interface for the Arch Linux package management tool <code>pacman</code>. </li>
+<li><a href="https://github.com/ericm/yup">Yup</a> (Go | TUI) - Arch Linux AUR Helper with ncurses functionality and better searching and sorting.</li>
+</ul>
+<h1><a class="header" href="#mainteinance" id="mainteinance">Mainteinance</a></h1>
+<ul>
+<li><a href="https://github.com/simon04/aur-out-of-date">aur-out-of-date</a> - Determines out-of-date AUR packages w.r.t. upstream version.</li>
+<li><a href="https://github.com/eli-schwartz/aurpublish">aurpublish</a> - PKGBUILD management framework for the Arch User Repository.</li>
+<li><a href="https://git.archlinux.org/devtools.git/">devtools</a> - Tools for the Arch Linux distribution for building and maintaining official repository packages.</li>
+<li><a href="http://kmkeen.com/pkgbuild-watch/">pkgbuild-watch</a> - Alerts you to upstream activity.</li>
+<li><a href="https://github.com/anatol/pkgoutofdate">pkgoutofdate</a> - Checks whether Arch packages are out-of-date.</li>
+</ul>
+<h1><a class="header" href="#other" id="other">Other</a></h1>
+<ul>
+<li><a href="https://github.com/GermainZ/aur-talk">aur-talk</a> - A script to fetch and display AUR package comments.</li>
+<li><a href="https://github.com/jadenPete/aurvote-utils">aurvote-utils</a> - A set of utilities for managing AUR votes.</li>
+<li><a href="https://hackage.haskell.org/package/aur">haskell-aur</a> - Haskell library for accessing Aurweb RPC interface.</li>
+<li><a href="https://github.com/archlinuxfr/package-query">package-query</a> - Tool for querying <code>libalpm</code> and the AUR.</li>
+<li><a href="https://xyne.archlinux.ca/projects/python3-aur">python3-aur</a> - AUR-related modules and helper utilities (aurploader, aurquery, aurtomatic).</li>
+<li><a href="https://gitlab.com/davidbittner/raur">raur</a> - Rust library for accessing Aurweb RPC interface.</li>
+</ul>
+<h1><a class="header" href="#other-projects" id="other-projects">Other projects</a></h1>
+<blockquote>
+<p>Projects linked to or inspired by Arch Linux that do not belong to any previous category.</p>
+</blockquote>
+<ul>
+<li><a href="https://termuxarch.github.io/TermuxArch/">Termux Arch</a> - Run Arch Linux ARM on your mobile phone with Termux.</li>
+<li><a href="https://hub.docker.com/r/archlinux/base/">archlinux/base</a> - A docker image based on Arch Linux.</li>
+</ul>
+<h1><a class="header" href="#contribute" id="contribute">Contribute</a></h1>
+<p>Contributions welcome! Read the <a href="contributing.html">contribution guidelines</a> first.</p>
+<p>You can also contribute to the maintenance of the list by making a small donation (psst, buy me a coffee... ☕️ ):</p>
+<p><a href="https://liberapay.com/PandaFoss/donate"><img src="https://liberapay.com/assets/widgets/donate.svg" alt="Donate" /></a></p>
+<p>I need your support! ❤️</p>
+<h1><a class="header" href="#license" id="license">License</a></h1>
+<p><a href="https://creativecommons.org/publicdomain/zero/1.0"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" alt="CC0" /></a></p>
+<p>To the extent possible under law, Panda Foss has waived all copyright and related or neighboring rights to this work.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+        
+        
+
+    </body>
+</html>

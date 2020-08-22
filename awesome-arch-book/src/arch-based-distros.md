@@ -1,0 +1,3 @@
+# Arch-based distros
+
+Simplicity is one of the great features of Arch Linux, which has led the community to use it for their own distributions. In this section we cover all of these through two categories: those general purpose distros (the ones we usually install on our home computers), and those others that were designed with a particular purpose in mind, be it focused on security, data rescue, servers among others.
