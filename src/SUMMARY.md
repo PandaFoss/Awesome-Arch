@@ -15,7 +15,7 @@
   - [Search and build](./search-and-build.md)
   - [Pacman wrappers](./pacman-wrappers.md)
   - [Graphical](./graphical.md)
-  - [Mainteinance](./mainteinance.md)
+  - [Maintenance](./maintenance.md)
   - [Other](./other.md)
 - [Other projects](./other-projects.md)
 
