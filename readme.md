@@ -39,7 +39,7 @@
 
 > Non-Linux projects based on Arch Linux.
 
-- [PacBSD](https://pacbsd.org/) - A lightweight and flexible BSD distribution that provides a base system for use of `pacman` package manager.
+- [PacBSD](https://github.com/pacbsd) - A lightweight and flexible BSD distribution that provides a base system for use of `pacman` package manager.
 - [Arch Hurd](https://archhurd.org/) - A derivative work of Arch Linux porting it to the GNU Hurd system with packages optimised for the i686 architecture.
 - [ArchWSL](https://git.io/archwsl) - ArchLinux as a WSL Instance.
 
@@ -61,7 +61,7 @@
 - [ArchEX](http://archex.exton.net/) - A new (190612) Linux live DVD based on Arch Linux. Arch motto is KISS (Keep It Simple Stupid.
 - [Arch XFerience](https://www.xferience.org/) - A modern OS based on Arch Linux, built for day-to-day operations with tons of packages & features.
 - [Ctlos Linux](https://ctlos.github.io/) - Arch Linux based distro.
-- [MagpieOS](https://www.magpieos.net/) - Get a fresh experience of Arch.
+- [MagpieOS](https://github.com/magpie-linux) - Get a fresh experience of Arch.
 - [Netrunner Rolling](https://www.netrunner.com/netrunner-rolling-release/) - Manjaro/Arch Linux based distro.
 - [PuppyRus-A](https://sourceforge.net/projects/puppyrusa/) - Lightweight, portable and flexible Linux based on Arch, Puppy, Porteus.
 - [TeLiSc OS](https://sourceforge.net/projects/telisc-os/) - A simple GNU/Linux distribution based on Arch Linux which provides you a stable Arch Linux with i3 window manager.
