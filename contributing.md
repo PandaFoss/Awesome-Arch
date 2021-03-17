@@ -6,20 +6,13 @@ project you agree to abide by its terms.
 
 ---
 
-Ensure your pull request adheres to the following guidelines:
+### Add new item to the list
 
-- Make sure you take care of this
-- And this as well
-- And don't forget to check this
+To add a new element, you must take into account to do it both in the [`readme.md`](https://github.com/PandaFoss/Awesome-Arch/blob/master/readme.md) file and in the respective file inside the [`src`](https://github.com/PandaFoss/Awesome-Arch/tree/master/src) directory. For example, if you want to add a new *pacman wrapper*, you should insert it in the `readme.md` mentioned above and in the file [`src/pacman-wrappers.md`](https://github.com/PandaFoss/Awesome-Arch/blob/master/src/pacman-wrappers.md), respecting the format of the rest of the file.
+*Note: this task may be scripted in the future to avoid having to add the same line twice. But for the moment it must be done manually.*
 
-Thank you for your suggestions!
+### Testing
 
-
-## Updating your PR
-
-A lot of times, making a PR adhere to the standards above can be difficult.
-If the maintainers notice anything that we'd like changed, we'll ask you to
-edit your PR before we merge it. There's no need to open a new PR, just edit
-the existing one. If you're not sure how to do that,
-[here is a guide](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md)
-on the different ways you can update your PR so that we can merge it.
+Since the list is getting bigger and bigger, I decided to add some scripts to the repository to make it easier to control it (inside the [`tests`](https://github.com/PandaFoss/Awesome-Arch/tree/master/tests) directory).
+At the moment there is only a Perl script that checks one by one the links of the projects in the listing, making it much less tedious. Note that, when an error occurs, you must check the site manually to avoid false negatives.
+We welcome all ideas and contributions in this regard.
