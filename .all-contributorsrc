@@ -8,6 +8,16 @@
   "projectOwner": "PandaFoss",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "contributors": [
+    {
+      "login": "klorophatu",
+      "name": "klorophatu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52282861?v=4",
+      "profile": "https://github.com/klorophatu",
+      "contributions": [
+        "content"
+      ]
+    }
+  ]
 }
- 
