@@ -187,7 +187,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-
+<table>
+    <tr>
+    <td align="center"><a href="https://github.com/klorophatu"><img src="https://avatars.githubusercontent.com/u/52282861?v=4" width="100px;" alt=""/><br /><sub><b>klorophatu</b></sub></a><br /><a href="#content-klorophatu" title="Content">🖋</a></td>
+    <td align="center"><a href="https://telesto.ai"><img src="https://avatars.githubusercontent.com/u/28736871?v=4" width="100px;" alt=""/><br /><sub><b>Nandor Magyar</b></sub></a><br /><a href="#content-nandor-magyar" title="Content">🖋</a></td>
+    </tr>
+</table>
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
