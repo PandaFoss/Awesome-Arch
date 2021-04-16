@@ -1,0 +1,13 @@
+{
+  "files": [
+    "readme.md"
+  ],
+  "imageSize": 100,
+  "contributorsPerLine": 8,
+  "projectName": "Awesome-Arch",
+  "projectOwner": "PandaFoss",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
+ 
