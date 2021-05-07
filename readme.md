@@ -49,7 +49,6 @@
 
 > Linux distributions based on Arch Linux for general use.
 
-- [Manjaro](https://manjaro.org/) - A professionally made Linux based operating system that is a suitable replacement for Windows or macOS.
 - [ArcoLinux](https://arcolinux.com/) - A full-featured distribution.
 - [ArchBang Linux](http://archbang.org/) - A lightweight distribution based on Arch Linux.
 - [Archcraft OS](https://archcraft-os.github.io/) - A Minimalistic Linux Distribution, Focused On Aesthetics & Based On Arch Linux.
