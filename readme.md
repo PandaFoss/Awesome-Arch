@@ -166,6 +166,7 @@ It has everything on board to build AOSP or AOSP-based distributions like Lineag
 
 > Projects linked to or inspired by Arch Linux that do not belong to any previous category.
 
+- [Dotfiles Generator](https://github.com/ulises-jeremias/dotfiles) - Dotfiles generator that allows quick configuration of different Window Managers and tools in multiple operating systems, including any Arch Linux-based distribution.
 - [Termux Arch](https://termuxarch.github.io/TermuxArch/) - Run Arch Linux ARM on your mobile phone with Termux.
 - [archlinux/base](https://hub.docker.com/r/archlinux/base/) - A docker image based on Arch Linux.
 - [Arch Linux on EC2](https://www.uplinklabs.net/projects/arch-linux-on-ec2/) - Amazon EC2 AMIs based on Arch Linux
