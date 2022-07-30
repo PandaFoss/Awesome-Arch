@@ -18,5 +18,6 @@
   - [Maintenance](./maintenance.md)
   - [Other](./other.md)
 - [Other projects](./other-projects.md)
+- [Inactive projects](./inactive-projects.md)
 
 [Contribute](./contribute.md)
