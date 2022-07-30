@@ -25,6 +25,7 @@
   - [Maintenance](#maintenance)
   - [Other](#other)
 - [Other projects](#other-projects)
+- [Inactive projects](#inactive-projects)
 
 ## Arch-based projects
 
@@ -183,7 +184,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 You can also contribute to the maintenance of the list by making a small donation (psst, buy me a coffee... ☕️ ):
 
-<noscript><a href="https://liberapay.com/PandaFoss/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K179HAS)
 
 I need your support! ❤️
 
