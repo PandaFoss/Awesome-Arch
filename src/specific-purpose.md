@@ -2,6 +2,7 @@
 
 > Linux distributions based on Arch Linux with a specific purpose.
 
+- [BioArchLinux](https://bioarchlinux.org/) - _(Bioinformatics/Biology)_ Arch Community for Biologists & Arch Repository for Biological Software.
 - [BlackArch Linux](https://blackarch.org/) - _(Security/Forensics)_ - An Arch Linux-based distribution designed for penetration testers and security researchers.
 - [ArchStrike](https://archstrike.org/) - _(Security)_ - A distribution for security professionals and researchers based on Arch Linux.
 - [SystemRescueCd](http://www.system-rescue-cd.org/) - _(Data Rescue)_ - An Arch-based Linux system on a bootable CD-ROM or USB drive, designed for repairing a system and data after a crash.
