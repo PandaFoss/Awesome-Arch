@@ -56,7 +56,7 @@
 - [Archcraft OS](https://archcraft-os.github.io/) - A Minimalistic Linux Distribution, Focused On Aesthetics & Based On Arch Linux.
 - [Archman](http://archman.org/) - An Arch Linux-based distribution which features the Calamares system installer and a pre-configured desktop environment.
 - [Bluestar Linux](https://sourceforge.net/projects/bluestarlinux/) - A GNU/Linux distribution that is based on Arch Linux.
-- [Crystal Linux](Https://getcryst.al) -  Crystal Linux is a brand new Arch Linux based distribution.Completely beginner friendly, easy to use, and powerful.
+- [Crystal Linux](Https://getcryst.al) -  Crystal Linux is a brand new Arch Linux based distribution. Completely beginner friendly, easy to use, and powerful.
 - [EndeavourOS](https://endeavouros.com/) - A rolling release Linux distribution based on Arch Linux.
 - [ArchLabs Linux](https://archlabslinux.com/) - A distribution based on Arch Linux and featuring the Openbox window manager as the primary desktop interface.
 - [Namib GNU/Linux](https://www.namiblinux.org/) - A desktop operating system based on (and compatible with) the Arch Linux distribution.
