@@ -56,6 +56,7 @@
 - [Archcraft OS](https://archcraft-os.github.io/) - A Minimalistic Linux Distribution, Focused On Aesthetics & Based On Arch Linux.
 - [Archman](http://archman.org/) - An Arch Linux-based distribution which features the Calamares system installer and a pre-configured desktop environment.
 - [Bluestar Linux](https://sourceforge.net/projects/bluestarlinux/) - A GNU/Linux distribution that is based on Arch Linux.
+- [CachyOS](https://cachyos.org) - A GNU/Linux distribution built on Arch Linux, it features the optimized linux-cachyos kernel utilizing the advanced BORE Scheduler for unparalleled performance.
 - [EndeavourOS](https://endeavouros.com/) - A rolling release Linux distribution based on Arch Linux.
 - [ArchLabs Linux](https://archlabslinux.com/) - A distribution based on Arch Linux and featuring the Openbox window manager as the primary desktop interface.
 - [Namib GNU/Linux](https://www.namiblinux.org/) - A desktop operating system based on (and compatible with) the Arch Linux distribution.
@@ -104,6 +105,7 @@ It has everything on board to build AOSP or AOSP-based distributions like Lineag
 
 - [Anarchy](https://anarchyinstaller.gitlab.io) - A simple and intuitive Arch Linux installer.
 - [Archfi](https://github.com/MatMoul/archfi) - Just a simple bash script wizard to install Arch Linux after you have booted on the official Arch Linux install media.
+- [aui](https://github.com/helmuthdu/aui) - The Archlinux Ultimate Install comprises of two primary scripts, Lilo and Fifo, which streamline the installation process of Archlinux Base, as well as additional packages, tools, and graphical user interfaces.
 
 ## AUR Helpers
 
@@ -124,6 +126,7 @@ It has everything on board to build AOSP or AOSP-based distributions like Lineag
 
 ### Pacman wrappers
 
+- [amethyst](https://github.com/crystal-linux/amethyst) (Rust) - A fast, efficient and lightweight AUR helper and Pacman wrapper made for Crystal, compatible with any Arch-based Linux distribution.
 - [Aura](https://github.com/fosskers/aura) (Haskell) - A secure, multilingual package manager for Arch Linux and the AUR.
 - [Pacaur](https://github.com/E5ten/pacaur) (Bash) - An AUR helper that minimizes user interaction.
 - [Pakku](https://github.com/kitsunyan/pakku) (Nim) - `pacman` wrapper with AUR support.
