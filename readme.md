@@ -203,15 +203,18 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="https://github.com/klorophatu"><img src="https://avatars.githubusercontent.com/u/52282861?v=4?s=100" width="100px;" alt=""/><br /><sub><b>klorophatu</b></sub></a><br /><a href="#content-klorophatu" title="Content">🖋</a></td>
-    <td align="center"><a href="https://telesto.ai"><img src="https://avatars.githubusercontent.com/u/28736871?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nandor Magyar</b></sub></a><br /><a href="#content-nandor-magyar" title="Content">🖋</a></td>
-    <td align="center"><a href="https://pandafoss.github.io/"><img src="https://avatars.githubusercontent.com/u/6508835?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Max Ferrer</b></sub></a><br /><a href="https://github.com/PandaFoss/Awesome-Arch/commits?author=PandaFoss" title="Code">💻</a> <a href="#ideas-PandaFoss" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-PandaFoss" title="Maintenance">🚧</a> <a href="#design-PandaFoss" title="Design">🎨</a> <a href="#content-PandaFoss" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/JackNapier151"><img src="https://avatars.githubusercontent.com/u/23581810?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jack Napier</b></sub></a><br /><a href="#ideas-JackNapier151" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="http://sheepdev.xyz"><img src="https://avatars.githubusercontent.com/u/68562536?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sheepdev</b></sub></a><br /><a href="#content-sheeepdev" title="Content">🖋</a></td>
-    <td align="center"><a href="https://ar.linkedin.com/in/ulisesjcf"><img src="https://avatars.githubusercontent.com/u/17727170?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ulises Jeremias Cornejo Fandos</b></sub></a><br /><a href="#content-ulises-jeremias" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/andryandrew"><img src="https://avatars.githubusercontent.com/u/29781022?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrea</b></sub></a><br /><a href="#content-andryandrew" title="Content">🖋</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="12.5%"><a href="https://github.com/klorophatu"><img src="https://avatars.githubusercontent.com/u/52282861?v=4?s=100" width="100px;" alt="klorophatu"/><br /><sub><b>klorophatu</b></sub></a><br /><a href="#content-klorophatu" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="12.5%"><a href="https://telesto.ai"><img src="https://avatars.githubusercontent.com/u/28736871?v=4?s=100" width="100px;" alt="Nandor Magyar"/><br /><sub><b>Nandor Magyar</b></sub></a><br /><a href="#content-nandor-magyar" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="12.5%"><a href="https://pandafoss.github.io/"><img src="https://avatars.githubusercontent.com/u/6508835?v=4?s=100" width="100px;" alt="Max Ferrer"/><br /><sub><b>Max Ferrer</b></sub></a><br /><a href="https://github.com/PandaFoss/Awesome-Arch/commits?author=PandaFoss" title="Code">💻</a> <a href="#ideas-PandaFoss" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-PandaFoss" title="Maintenance">🚧</a> <a href="#design-PandaFoss" title="Design">🎨</a> <a href="#content-PandaFoss" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="12.5%"><a href="https://github.com/JackNapier151"><img src="https://avatars.githubusercontent.com/u/23581810?v=4?s=100" width="100px;" alt="Jack Napier"/><br /><sub><b>Jack Napier</b></sub></a><br /><a href="#ideas-JackNapier151" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="12.5%"><a href="http://sheepdev.xyz"><img src="https://avatars.githubusercontent.com/u/68562536?v=4?s=100" width="100px;" alt="sheepdev"/><br /><sub><b>sheepdev</b></sub></a><br /><a href="#content-sheeepdev" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="12.5%"><a href="https://ar.linkedin.com/in/ulisesjcf"><img src="https://avatars.githubusercontent.com/u/17727170?v=4?s=100" width="100px;" alt="Ulises Jeremias Cornejo Fandos"/><br /><sub><b>Ulises Jeremias Cornejo Fandos</b></sub></a><br /><a href="#content-ulises-jeremias" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="12.5%"><a href="https://github.com/andryandrew"><img src="https://avatars.githubusercontent.com/u/29781022?v=4?s=100" width="100px;" alt="Andrea"/><br /><sub><b>Andrea</b></sub></a><br /><a href="#content-andryandrew" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="12.5%"><a href="https://github.com/0xMRTT"><img src="https://avatars.githubusercontent.com/u/105598867?v=4?s=100" width="100px;" alt="0xMRTT"/><br /><sub><b>0xMRTT</b></sub></a><br /><a href="#content-0xMRTT" title="Content">🖋</a></td>
+    </tr>
+  </tbody>
 </table>
 
 <!-- markdownlint-restore -->
