@@ -213,6 +213,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="12.5%"><a href="https://ar.linkedin.com/in/ulisesjcf"><img src="https://avatars.githubusercontent.com/u/17727170?v=4?s=100" width="100px;" alt="Ulises Jeremias Cornejo Fandos"/><br /><sub><b>Ulises Jeremias Cornejo Fandos</b></sub></a><br /><a href="#content-ulises-jeremias" title="Content">🖋</a></td>
       <td align="center" valign="top" width="12.5%"><a href="https://github.com/andryandrew"><img src="https://avatars.githubusercontent.com/u/29781022?v=4?s=100" width="100px;" alt="Andrea"/><br /><sub><b>Andrea</b></sub></a><br /><a href="#content-andryandrew" title="Content">🖋</a></td>
       <td align="center" valign="top" width="12.5%"><a href="http://malacology.net"><img src="https://avatars.githubusercontent.com/u/37733075?v=4?s=100" width="100px;" alt="Kuoi"/><br /><sub><b>Kuoi</b></sub></a><br /><a href="#content-starsareintherose" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="12.5%"><a href="https://github.com/sogreatandpowerfull"><img src="https://avatars.githubusercontent.com/u/114095654?v=4?s=100" width="100px;" alt="SoGreatAndPowerful"/><br /><sub><b>SoGreatAndPowerful</b></sub></a><br /><a href="#content-sogreatandpowerfull" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
