@@ -101,6 +101,7 @@ It has everything on board to build AOSP or AOSP-based distributions like Lineag
 - [Hyperbola GNU/Linux-libre](https://www.hyperbola.info/) - A community driven effort to provide a fully free (as in freedom) operating system that is stable, secure, simple, lightweight that tries to Keep It Simple Stupid (KISS) with Long Term Support (LTS).
 - [Parabola GNU/Linux-libre](https://www.parabola.nu/) - An unofficial "libre" variant of Arch Linux.
 - [Alfheim Linux](https://alfheimlinux.wixsite.com/alfheimlinux) - Systemd free Arch based Linux.
+- [METIS Linux](https://metislinux.org) - A simple, elegant and powerful distro focusing on **runit** init system and **Window managers**.
 
 ## Arch Linux Installers
 
