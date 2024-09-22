@@ -106,7 +106,6 @@ It has everything on board to build AOSP or AOSP-based distributions like Lineag
 
 > Installers created specifically to facilitate the installation of Linux Arch.
 
-- [Anarchy](https://anarchyinstaller.gitlab.io) - A simple and intuitive Arch Linux installer.
 - [Archfi](https://github.com/MatMoul/archfi) - Just a simple bash script wizard to install Arch Linux after you have booted on the official Arch Linux install media.
 - [aui](https://github.com/helmuthdu/aui) - The Archlinux Ultimate Install comprises of two primary scripts, Lilo and Fifo, which streamline the installation process of Archlinux Base, as well as additional packages, tools, and graphical user interfaces.
 
@@ -184,6 +183,7 @@ It has everything on board to build AOSP or AOSP-based distributions like Lineag
 - **Arch XFerience** - A modern OS based on Arch Linux, built for day-to-day operations with tons of packages & features. (inactive)
 - **Chakra GNU/Linux** - A user-friendly and powerful distribution and live CD originally forked from Arch Linux. ([discontinued](https://twitter.com/chakralinux/status/1475111596640727045))
 - **Archphile** - _(Raspberry Pi/ARM/Audio)_ - Yet another linux audio distribution for embedded boards. (inactive)
+- **Anarchy** - A simple and intuitive Arch Linux installer. ([discontinued](https://gitlab.com/anarchyinstaller/installer#deprecated-project))
 
 ## Contribute
 
