@@ -112,7 +112,17 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "ghost",
+      "name": "Deleted user",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10137?v=4",
+      "profile": "https://github.com/ghost",
+      "contributions": [
+        "maintenance"
+      ]
     }
   ],
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }
