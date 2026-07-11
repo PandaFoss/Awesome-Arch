@@ -1,4 +1,4 @@
-# Awesome Arch [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.com/PandaFoss/Awesome-Arch.svg?branch=master)](https://travis-ci.com/PandaFoss/Awesome-Arch)
+# Awesome Arch [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome) [![Netlify Status](https://api.netlify.com/api/v1/badges/4c119a21-57f6-4391-9f3a-fe7f6b72f05c/deploy-status)](https://app.netlify.com/projects/awesome-arch/deploys)
 
 > An awesome list for an awesome project.</i></p>
 
