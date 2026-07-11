@@ -1,0 +1,39 @@
+name: Sync readme.md with src/
+
+on:
+  pull_request:
+    paths:
+      - 'src/**'
+  push:
+    branches:
+      - master
+    paths:
+      - 'src/**'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate readme.md from src/
+        run: python3 scripts/generate_readme.py
+
+      - name: Notify on the PR if there are differences (informational, non-blocking)
+        if: github.event_name == 'pull_request'
+        run: |
+          if ! git diff --quiet -- readme.md; then
+            echo "::notice::No need to edit readme.md by hand: once this is merged into master, this workflow will regenerate it automatically from src/."
+          fi
+
+      - name: Commit updated readme.md (master only)
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add readme.md
+          git diff --cached --quiet || git commit -m "chore: sync readme.md with src/ [skip ci]"
+          git push
