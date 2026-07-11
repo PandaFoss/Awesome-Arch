@@ -63,6 +63,7 @@ Simplicity is one of the great features of Arch Linux, which has led the communi
 - [Crystal Linux](https://getcryst.al) -  Crystal Linux is a brand new Arch Linux based distribution. Completely beginner friendly, easy to use, and powerful.
 - [Bluestar Linux](https://sourceforge.net/projects/bluestarlinux/) - A GNU/Linux distribution that is based on Arch Linux.
 - [EndeavourOS](https://endeavouros.com/) - A rolling release Linux distribution based on Arch Linux.
+- [Garuda Linux](https://garudalinux.org/) - An appealing Arch Linux based Distro with BTRFS (modern filesystem), Linux-zen kernel, auto snapshots, gaming edition and a lot more bleeding-edge features.
 - [ArchLabs Linux](https://archlabslinux.com/) - A distribution based on Arch Linux and featuring the Openbox window manager as the primary desktop interface.
 - [Namib GNU/Linux](https://www.namiblinux.org/) - A desktop operating system based on (and compatible with) the Arch Linux distribution.
 - [ArchEX](http://archex.exton.net/) - A new (190612) Linux live DVD based on Arch Linux. Arch motto is KISS (Keep It Simple Stupid.
