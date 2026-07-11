@@ -121,6 +121,15 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "Alessandro-Salerno",
+      "name": "Alessandro Salerno",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67583725?v=4",
+      "profile": "https://github.com/Alessandro-Salerno",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "commitConvention": "angular",
