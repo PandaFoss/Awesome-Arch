@@ -1,6 +1,6 @@
 # Awesome Arch [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
 
-> An awesome list for an awesome project.</i></p>
+> An awesome list for an awesome project.
 
 [<img src="https://www.archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png" align="right" width="250">](https://www.archlinux.org/)
 
