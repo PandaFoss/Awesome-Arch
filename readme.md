@@ -220,6 +220,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="12.5%"><a href="http://malacology.net"><img src="https://avatars.githubusercontent.com/u/37733075?v=4?s=100" width="100px;" alt="Kuoi"/><br /><sub><b>Kuoi</b></sub></a><br /><a href="#content-starsareintherose" title="Content">🖋</a></td>
       <td align="center" valign="top" width="12.5%"><a href="https://github.com/sogreatandpowerfull"><img src="https://avatars.githubusercontent.com/u/114095654?v=4?s=100" width="100px;" alt="SoGreatAndPowerful"/><br /><sub><b>SoGreatAndPowerful</b></sub></a><br /><a href="#content-sogreatandpowerfull" title="Content">🖋</a></td>
       <td align="center" valign="top" width="12.5%"><a href="https://github.com/ghost"><img src="https://avatars.githubusercontent.com/u/10137?v=4?s=100" width="100px;" alt="Deleted user"/><br /><sub><b>Deleted user</b></sub></a><br /><a href="#maintenance-ghost" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="12.5%"><a href="https://github.com/Alessandro-Salerno"><img src="https://avatars.githubusercontent.com/u/67583725?v=4?s=100" width="100px;" alt="Alessandro Salerno"/><br /><sub><b>Alessandro Salerno</b></sub></a><br /><a href="#content-Alessandro-Salerno" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
