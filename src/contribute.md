@@ -8,7 +8,7 @@ You can also contribute to the maintenance of the list by making a small donatio
 
 I need your support! ❤️
 
-# License 
+# License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 

@@ -1,5 +1,6 @@
 # Pacman wrappers
 
+- [amethyst](https://github.com/crystal-linux/amethyst) (Rust) - A fast, efficient and lightweight AUR helper and Pacman wrapper made for Crystal, compatible with any Arch-based Linux distribution.
 - [Aura](https://github.com/fosskers/aura) (Haskell) - A secure, multilingual package manager for Arch Linux and the AUR.
 - [Pacaur](https://github.com/E5ten/pacaur) (Bash) - An AUR helper that minimizes user interaction.
 - [Pakku](https://github.com/kitsunyan/pakku) (Nim) - `pacman` wrapper with AUR support.

@@ -3,7 +3,7 @@
 From Arch Wiki:
 
 > AUR helpers automate usage of the [Arch User Repository](https://aur.archlinux.org/). In particular, they may automate the following tasks:
-> 
+>
 > - searching for packages published on the AUR;
 > - resolving of dependencies between AUR packages;
 > - retrieve and build AUR packages;
